@@ -11,7 +11,9 @@ namespace PlantDairy001.Pages
     {
         public void OnGet()
         {
-
+            int yearStarted = 2006;
+            string name = "My Plant Dairy";
+            ViewData["Name"] = name;
         }
     }
 }
